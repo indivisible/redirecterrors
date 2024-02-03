@@ -1,0 +1,11 @@
+displayName: Redirect Errors
+type: middleware
+
+import: github.com/indivisible/redirecterrors
+
+summary: "Redirect to an URL on HTTP error status codes."
+
+testData:
+  Status:
+    - "401-403"
+  Target: "http://example.test/"
